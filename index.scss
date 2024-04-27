@@ -1,6 +1,9 @@
 @import "components";
 @import "variables";
 // $bg-color:
+html {
+  height: 100vh;
+}
 
 body {
   background-color: $bg-color;
@@ -45,6 +48,9 @@ body {
     }
     div {
       @extend %listItem;
+    }
+    h3 {
+      font-size: 16px;
     }
   }
 }

@@ -19,6 +19,11 @@
   display: flex;
   width: 100%;
   background-color: #faf9ff;
+  border-radius: 16px;
+}
+
+html {
+  height: 100vh;
 }
 
 body {
@@ -64,6 +69,10 @@ body {
 .sidebar-nav li:first-child {
   background-color: #faf9ff;
 }
+.sidebar-nav li h3 {
+  font-size: 16px;
+}
+
 .bottom-part {
   display: flex;
   flex-direction: column;
