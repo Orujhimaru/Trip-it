@@ -1,16 +1,9 @@
-.main-action-button {
-  background-color: #346aff;
-  border-radius: 16px;
-  box-shadow: 0px 8px 8px 0px rgba(52, 106, 255, 0.15);
-  color: white;
-  width: 100%;
-  padding: 12px 0;
-  border: none;
-  margin-top: 40px;
-}
+@import "components";
+@import "variables";
+// $bg-color:
 
 body {
-  background-color: #faf9ff;
+  background-color: $bg-color;
   padding: 24px 24px;
   height: 100vh;
   color: #27292c;
@@ -45,15 +38,15 @@ body {
 
 .sidebar-nav {
   margin-top: 60px;
+  li {
+    border-radius: 16px;
+    &:first-child {
+      background-color: $button-selected-color;
+    }
+    div {
+      display: flex;
+      padding: 16px 12px;
+      gap: 16px;
+    }
+  }
 }
-.sidebar-nav li {
-  border-radius: 16px;
-}
-.sidebar-nav li:first-child {
-  background-color: #faf9ff;
-}
-.sidebar-nav li div {
-  display: flex;
-  padding: 16px 12px;
-  gap: 16px;
-}/*# sourceMappingURL=index.css.map */
