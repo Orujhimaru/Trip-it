@@ -1,3 +1,9 @@
+.bottom-part div, .sidebar-nav li div {
+  display: flex;
+  padding: 16px 12px;
+  gap: 16px;
+}
+
 .main-action-button {
   background-color: #346aff;
   border-radius: 16px;
@@ -51,9 +57,4 @@ body {
 }
 .sidebar-nav li:first-child {
   background-color: #faf9ff;
-}
-.sidebar-nav li div {
-  display: flex;
-  padding: 16px 12px;
-  gap: 16px;
 }/*# sourceMappingURL=index.css.map */

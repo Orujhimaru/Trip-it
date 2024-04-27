@@ -10,6 +10,12 @@
   border: none;
 }
 
+%listItem {
+  display: flex;
+  padding: 16px 12px;
+  gap: 16px;
+}
+
 .main-action-button {
   @include action-button(#346aff);
   margin-top: 40px;
