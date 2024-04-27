@@ -20,3 +20,9 @@
   @include action-button(#346aff);
   margin-top: 40px;
 }
+
+.weather-report {
+  display: flex;
+  width: 100%;
+  background-color: $bg-color;
+}

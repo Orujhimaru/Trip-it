@@ -1,4 +1,4 @@
-.bottom-part div, .sidebar-nav li div {
+.support, .sidebar-nav li div {
   display: flex;
   padding: 16px 12px;
   gap: 16px;
@@ -13,6 +13,12 @@
   padding: 12px 0;
   border: none;
   margin-top: 40px;
+}
+
+.weather-report {
+  display: flex;
+  width: 100%;
+  background-color: #faf9ff;
 }
 
 body {
@@ -57,4 +63,22 @@ body {
 }
 .sidebar-nav li:first-child {
   background-color: #faf9ff;
+}
+.bottom-part {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  padding: 24px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 2px 5px;
 }/*# sourceMappingURL=index.css.map */

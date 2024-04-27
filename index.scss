@@ -49,8 +49,24 @@ body {
   }
 }
 
+.support {
+  @extend %listItem;
+}
+
 .bottom-part {
-  div {
-    @extend %listItem;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  padding: 24px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 2px 5px;
 }
