@@ -44,7 +44,8 @@ body {
   li {
     border-radius: 16px;
     &:first-child {
-      background-color: $button-selected-color;
+      //   background-color: $button-selected-color;
+      //   @extend .backgroundSelected;
     }
     div {
       @extend %listItem;
@@ -53,6 +54,10 @@ body {
       font-size: 16px;
     }
   }
+}
+
+.backgroundSelected {
+  background-color: $button-selected-color;
 }
 
 .support {
@@ -77,4 +82,24 @@ body {
   align-items: center;
   gap: 10px;
   padding: 2px 5px;
+}
+
+.text-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  margin-right: auto;
+}
+.weather-icons-row {
+  display: flex;
+  gap: 5px;
+  padding: 24px;
+  padding-bottom: 6px;
+}
+
+.direction-text {
+  &::before {
+    background-image: url("/images/weather-report/direction.svg");
+  }
 }

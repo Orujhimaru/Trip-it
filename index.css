@@ -17,6 +17,7 @@
 
 .weather-report {
   display: flex;
+  flex-direction: column;
   width: 100%;
   background-color: #faf9ff;
   border-radius: 16px;
@@ -66,11 +67,12 @@ body {
 .sidebar-nav li {
   border-radius: 16px;
 }
-.sidebar-nav li:first-child {
-  background-color: #faf9ff;
-}
 .sidebar-nav li h3 {
   font-size: 16px;
+}
+
+.backgroundSelected {
+  background-color: #faf9ff;
 }
 
 .bottom-part {
@@ -92,4 +94,23 @@ body {
   align-items: center;
   gap: 10px;
   padding: 2px 5px;
+}
+
+.text-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  margin-right: auto;
+}
+
+.weather-icons-row {
+  display: flex;
+  gap: 5px;
+  padding: 24px;
+  padding-bottom: 6px;
+}
+
+.direction-text::before {
+  background-image: url("/images/weather-report/direction.svg");
 }/*# sourceMappingURL=index.css.map */

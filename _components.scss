@@ -23,6 +23,7 @@
 
 .weather-report {
   display: flex;
+  flex-direction: column;
   width: 100%;
   background-color: $bg-color;
   border-radius: 16px;
