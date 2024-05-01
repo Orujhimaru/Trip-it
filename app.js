@@ -24,6 +24,7 @@ function updateTemperature() {
 }
 
 let previousButton = document.getElementById("0");
+previousButton.classList.add("backgroundSelected");
 
 function changeBgC(navpage) {
   previousButton.classList.toggle("backgroundSelected");
