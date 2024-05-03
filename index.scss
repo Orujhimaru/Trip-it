@@ -10,6 +10,7 @@ body {
   padding: 24px 24px;
   height: 100vh;
   color: #27292c;
+  display: flex;
 }
 
 .logo-text {
@@ -26,6 +27,7 @@ body {
 
 .sidebar {
   height: 100%;
+  width: max-content;
 }
 
 .sidebar-container {
@@ -99,7 +101,8 @@ body {
 }
 
 .direction-text {
-  &::before {
+  &::after {
+    // find out why this doesnt work
     background-image: url("/images/weather-report/direction.svg");
   }
 }
