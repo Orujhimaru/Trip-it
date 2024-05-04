@@ -25,11 +25,22 @@
 
 .travel-card {
   background-color: #feeccf;
-  min-width: 800px;
+  width: 750px;
   border-radius: 16px;
-  min-height: 300px;
+  height: 300px;
   position: relative;
   overflow: hidden;
+}
+.travel-card .travel-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 100%;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.travel-card .travel-text h3 {
+  font-size: 40px;
 }
 .travel-card img {
   position: absolute;
@@ -46,12 +57,12 @@
 }
 .travel-card .cloud-mid {
   top: 60px;
-  right: 50px;
+  right: 30px;
   z-index: 3;
 }
 .travel-card .cloud-up {
   top: 20px;
-  right: 50px;
+  right: 80px;
   z-index: 3;
 }
 .travel-card .wind {
@@ -153,4 +164,8 @@ body {
 
 .direction-text::after {
   background-image: url("/images/weather-report/direction.svg");
+}
+
+main {
+  margin-inline: 24px;
 }/*# sourceMappingURL=index.css.map */
